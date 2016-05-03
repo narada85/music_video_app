@@ -14,6 +14,7 @@
 		D193FDEA1CD86439002657E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D193FDE81CD86439002657E0 /* LaunchScreen.storyboard */; };
 		D193FDF51CD86439002657E0 /* MusicVideoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193FDF41CD86439002657E0 /* MusicVideoAppTests.swift */; };
 		D193FE001CD86439002657E0 /* MusicVideoAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193FDFF1CD86439002657E0 /* MusicVideoAppUITests.swift */; };
+		D193FE141CD86E13002657E0 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193FE131CD86E13002657E0 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D193FDFB1CD86439002657E0 /* MusicVideoAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicVideoAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D193FDFF1CD86439002657E0 /* MusicVideoAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicVideoAppUITests.swift; sourceTree = "<group>"; };
 		D193FE011CD86439002657E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D193FE131CD86E13002657E0 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 		D193FE101CD86AE4002657E0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D193FE131CD86E13002657E0 /* APIManager.swift */,
 				D193FDE61CD86439002657E0 /* Assets.xcassets */,
 				D193FDDF1CD86439002657E0 /* AppDelegate.swift */,
 				D193FDEB1CD86439002657E0 /* Info.plist */,
@@ -281,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D193FDE21CD86439002657E0 /* ViewController.swift in Sources */,
+				D193FE141CD86E13002657E0 /* APIManager.swift in Sources */,
 				D193FDE01CD86439002657E0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
